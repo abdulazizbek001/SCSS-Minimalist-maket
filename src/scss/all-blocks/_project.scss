@@ -1,0 +1,141 @@
+//===================================== PROJECT START =====================================//
+
+.project {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 150px;
+
+    h2 {
+        width: 340px;
+        color: #33323D;
+        font-size: 40px;
+        font-style: normal;
+        font-weight: 700;
+        line-height: 42px;
+        letter-spacing: -0.357px;
+    }
+
+    hr {
+        width: 518px;
+        height: 1px;
+        opacity: 0.15;
+        border: none;
+        background: #33323D;
+    }
+
+    a {
+        color: #33323D;
+        font-size: 12px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: normal;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+        padding: 17px 30px;
+        border: 1px solid #33323D;
+
+        &:hover {
+            opacity: 0.7;
+        }
+
+        &:active {
+            opacity: 0.3;
+        }
+    }
+}
+
+//===================================== PROJECT END =====================================//
+
+//=============================================== MEDIA START ===============================================//
+
+
+
+//===================================== TABLET START =====================================//
+
+@media only screen and (max-width: 689px) {
+    .project {
+        display: flex;
+        align-items: center;
+        gap: 0 27px;
+        justify-content: space-between;
+        margin-bottom: 96px;
+
+        h2 {
+            width: 343px;
+            color: #33323D;
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 42px;
+            letter-spacing: -0.357px;
+        }
+
+        hr {
+            width: 113px;
+            height: 1px;
+            opacity: 0.15;
+            border: none;
+            background: #33323D;
+        }
+
+        a {
+            color: #33323D;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            padding: 17px 14px;
+            border: 1px solid #33323D;
+        }
+    }
+}
+
+//===================================== TABLET END =====================================//
+
+//===================================== MOBILE START =====================================//
+
+@media only screen and (max-width:311px) {
+    .project {
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 80px;
+
+        h2 {
+            width: 311px;
+            color: #33323D;
+            text-align: center;
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 42px;
+            letter-spacing: -0.357px;
+            margin-bottom: 40px;
+        }
+
+        hr {
+            opacity: 0;
+        }
+
+        a {
+            margin: 0 auto;
+            color: #33323D;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            padding: 17px 35px;
+            border: 1px solid #33323D;
+        }
+    }
+}
+
+//===================================== MOBILE END =====================================//
+
+
+
+//=============================================== MEDIA END ===============================================//

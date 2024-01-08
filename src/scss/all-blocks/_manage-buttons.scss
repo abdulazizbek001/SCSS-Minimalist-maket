@@ -1,0 +1,102 @@
+//===================================== BUTTONS START =====================================//
+
+.buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 115px;
+
+    .buttons-btn {
+        padding: 27px 394px 32px 0px;
+        border-right: 1px solid #33323D;
+        background-color: #fafafa;
+        border-left: 0;
+    }
+
+    button {
+        padding: 40px 0px 32px 394px;
+        border: 1px solid #33323D;
+        background-color: #fafafa;
+        border-right: 0;
+
+        a {
+            display: flex;
+            align-items: center;
+            gap: 0 32px;
+            margin-bottom: 32px;
+        }
+
+        h3 {
+            color: #33323D;
+            font-size: 32px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 36px;
+            letter-spacing: -0.286px;
+            margin-bottom: 5px;
+        }
+
+        p {
+            width: 100px;
+            color: #33323D;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 30px;
+            opacity: 0.5;
+        }
+    }
+}
+
+//===================================== BUTTONS END =====================================//
+
+//=============================================== MEDIA START ===============================================//
+
+
+//===================================== TABLET START =====================================//
+
+@media only screen and (max-width:689px) {
+    .buttons {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 80px;
+
+        .buttons-btn {
+            padding: 32px 184px 32px 0px;
+            border-right: 1px solid #33323D;
+            border-left: 0;
+        }
+
+        button {
+            padding: 32px 0px 32px 184px;
+            border: 1px solid #33323D;
+            background-color: #fafafa;
+            border-right: 0;
+
+            a {
+                color: #33323D;
+                font-size: 32px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 36px;
+                letter-spacing: -0.286px;
+            }
+
+            p {
+                width: 120px;
+                color: #33323D;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 30px;
+                opacity: 0.5;
+            }
+        }
+    }
+}
+
+//===================================== TABLET END =====================================//
+
+
+//=============================================== MEDIA END ===============================================//

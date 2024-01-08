@@ -1,0 +1,166 @@
+//===================================== ABOUT START =====================================//
+
+.about {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 150px;
+
+    img {
+        width: 540px;
+        height: 600px;
+    }
+
+    &-box {
+        margin-left: 125px;
+
+        .about-line {
+            width: 350px;
+            height: 1px;
+            opacity: 0.15;
+            border: none;
+            background: #33323D;
+            margin-bottom: 50px;
+        }
+
+        h2 {
+            color: #33323D;
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 42px;
+            letter-spacing: -0.357px;
+            margin-bottom: 28px;
+        }
+
+        p {
+            width: 340px;
+            color: #33323D;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 30px;
+            margin-bottom: 24px;
+        }
+
+        a {
+            color: #33323D;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            padding: 17px 35px;
+            border: 1px solid #33323D;
+            margin-bottom: 46px;
+
+            &:hover {
+                opacity: 0.7;
+            }
+
+            &:active {
+                opacity: 0.3;
+            }
+        }
+
+        hr {
+            width: 350px;
+            height: 1px;
+            opacity: 0.15;
+            border: none;
+            background: #33323D;
+        }
+    }
+}
+
+//===================================== ABOUT END =====================================//
+
+//=============================================== MEDIA START ===============================================//
+
+
+//===================================== TABLET START =====================================//
+
+@media only screen and (max-width: 689px) {
+    .about {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-image: url("../../../src/assets/img/tablet-about.jpg");
+        background-repeat: no-repeat;
+        background-size: contain;
+        margin-bottom: 96px;
+
+        img {
+            opacity: 0;
+        }
+
+        &-box {
+            margin-right: 322px;
+
+            .about-line {
+                width: 339px;
+                height: 1px;
+                opacity: 0.15;
+                border: none;
+                background: #33323D;
+                margin-bottom: 50px;
+            }
+
+            h2 {
+                color: #33323D;
+                font-size: 40px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 42px;
+                letter-spacing: -0.357px;
+                margin-bottom: 28px;
+            }
+
+            p {
+                width: 339px;
+                color: #33323D;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 30px;
+                margin-bottom: 24px;
+            }
+
+            hr {
+                width: 339px;
+                height: 1px;
+                opacity: 0.15;
+                border: none;
+                background: #33323D;
+            }
+        }
+    }
+}
+
+//===================================== TABLET END =====================================//
+
+
+//===================================== MABILE START =====================================//
+
+@media only screen and (max-width:311px) {
+    .about {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        margin-bottom: 135px;
+
+        img {
+            position: absolute;
+            left: 10px;
+            top: 20px;
+            width: 311px;
+            height: 346px;
+        }
+    }
+}
+
+//===================================== MABILE END =====================================//
+
+
+//=============================================== MEDIA END ===============================================//

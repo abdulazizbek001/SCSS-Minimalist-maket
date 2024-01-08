@@ -1,0 +1,121 @@
+//===================================== CONTACT-HERO START =====================================//
+
+.contact-hero {
+    margin-bottom: 47px;
+
+    .contact-line {
+        width: 1110px;
+        height: 1px;
+        opacity: 0.15;
+        background: #33323D;
+        margin-bottom: 48px;
+    }
+
+    .contact-box {
+        display: flex;
+        align-items: start;
+
+        h1 {
+            color: #33323D;
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 42px;
+            letter-spacing: -0.357px;
+        }
+
+        .hero-wrap {
+            margin-left: 150px;
+            margin-bottom: 48px;
+
+            p {
+                width: 635px;
+                color: #33323D;
+                font-size: 16px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 30px;
+                margin-bottom: 24px;
+            }
+        }
+    }
+
+    hr {
+        width: 1110px;
+        height: 1px;
+        opacity: 0.15;
+        background: #33323D;
+    }
+}
+
+//===================================== CONTACT-HERO END =====================================//
+
+//=============================================== MEDIA START ===============================================//
+
+
+//===================================== TABLET START =====================================//
+
+@media only screen and (max-width:689px) {
+    .contact-hero {
+        margin-left: 2px;
+        margin-bottom: 32px;
+
+        .contact-line {
+            width: 689px;
+            height: 1px;
+            opacity: 0.15;
+            border: none;
+            background: #33323D;
+            margin-bottom: 32px;
+        }
+
+        .contact-box {
+            display: flex;
+            flex-wrap: wrap;
+            
+            h1 {
+                color: #33323D;
+                font-size: 40px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 42px;
+                letter-spacing: -0.357px;
+                margin-bottom: 24px;
+            }
+
+            .hero-wrap {
+                margin-left: 0px;
+                margin-bottom: 32px;
+
+                p {
+                    width: 690px;
+                    color: #33323D;
+                    font-size: 15px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: 30px;
+                    opacity: 0.8;
+                    margin-bottom: 24px;
+                }
+
+                img {
+                    width: 104px;
+                    height: 24px;
+                }
+            }
+        }
+
+        hr {
+            width: 689px;
+            height: 1px;
+            opacity: 0.15;
+            border: none;
+            background: #33323D;
+        }
+    }
+}
+
+//===================================== TABLET END =====================================//
+
+
+//=============================================== MEDIA END ===============================================//

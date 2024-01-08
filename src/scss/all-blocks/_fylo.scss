@@ -1,0 +1,215 @@
+//===================================== FYLO START =====================================//
+
+.fylo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 150px;
+
+    &-box {
+        margin-right: 125px;
+
+        .fylo-line {
+            width: 350px;
+            height: 1px;
+            opacity: 0.15;
+            border: none;
+            background: #33323D;
+            margin-bottom: 103px;
+        }
+
+        h2 {
+            color: #33323D;
+            font-size: 40px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: 42px;
+            letter-spacing: -0.357px;
+            margin-bottom: 28px;
+        }
+
+        p {
+            width: 350px;
+            color: #33323D;
+            font-size: 16px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: 30px;
+            margin-bottom: 24px;
+        }
+
+        a {
+            color: #33323D;
+            font-size: 12px;
+            font-style: normal;
+            font-weight: 400;
+            line-height: normal;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            padding: 17px 34px;
+            border: 1px solid #33323D;
+            margin-bottom: 103px;
+        }
+
+        hr {
+            width: 350px;
+            height: 1px;
+            opacity: 0.15;
+            border: none;
+            background: #33323D;
+        }
+    }
+}
+
+//===================================== FYLO END =====================================//
+
+//=============================================== MEDIA START ===============================================//
+
+
+//===================================== TABLET START =====================================//
+
+@media only screen and (max-width:689px) {
+    .fylo {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 10px;
+        margin-bottom: 80px;
+
+        &-box {
+            margin-right: -21px;
+
+            .fylo-line {
+                width: 281px;
+                height: 1px;
+                opacity: 0.15;
+                background: #33323D;
+                margin-bottom: 32px;
+            }
+
+            h2 {
+                color: #33323D;
+                font-size: 40px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 42px;
+                letter-spacing: -0.357px;
+                margin-bottom: 29px;
+            }
+
+            p {
+                width: 281px;
+                color: #33323D;
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 30px;
+                opacity: 0.8;
+                margin-bottom: 35px;
+            }
+
+            a {
+                color: #33323D;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                letter-spacing: 2px;
+                text-transform: uppercase;
+                padding: 17px 35px;
+                border: 1px solid #33323D;
+                margin-bottom: 50px;
+            }
+        }
+
+        img {
+            width: 339px;
+            height: 314px;
+        }
+    }
+}
+
+//===================================== TABLET END =====================================//
+
+
+//===================================== MOBILE START =====================================//
+
+@media only screen and (max-width:311px) {
+    .fylo {
+        position: relative;
+        display: flex;
+        flex-wrap: wrap;
+        padding-top: 330px;
+        margin-left: 20px;
+        margin-bottom: 72px;
+
+        img {
+            position: absolute;
+            top: 0px;
+            left: -24px;
+            width: 300px;
+            height: 288px;
+        }
+
+        &-box {
+            margin-right: 0;
+            margin-left: 20px;
+
+            .fylo-line {
+                width: 311px;
+                height: 1px;
+                opacity: 0.15;
+                border: none;
+                background: #33323D;
+                margin-bottom: 24px;
+            }
+
+            h1 {
+                color: #33323D;
+                font-size: 40px;
+                font-style: normal;
+                font-weight: 700;
+                line-height: 42px;
+                letter-spacing: -0.357px;
+                margin-bottom: 24px;
+            }
+
+            p {
+                width: 311px;
+                color: #33323D;
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: 30px;
+                opacity: 0.8;
+                margin-bottom: 24px;
+            }
+
+            a {
+                color: #33323D;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                letter-spacing: 2px;
+                text-transform: uppercase;
+                padding: 17px 35px;
+                border: 1px solid #33323D;
+                margin-bottom: 24px;
+            }
+
+            hr {
+                width: 311px;
+                height: 1px;
+                opacity: 0.15;
+                border: none;
+                background: #33323D;
+            }
+        }
+    }
+}
+
+//===================================== MOBILE END =====================================//
+
+
+//=============================================== MEDIA END ===============================================//

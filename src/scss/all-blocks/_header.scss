@@ -1,0 +1,143 @@
+//===================================== HEADER START =====================================//
+
+.header {
+    padding-top: 64px;
+    margin-bottom: 54px;
+
+    &-box {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        ul {
+            display: flex;
+            align-items: center;
+            gap: 0 43px;
+
+            .header-link {
+                color: #5FB4A2;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                letter-spacing: 2px;
+                text-transform: uppercase;
+            }
+
+            .header-link2 {
+                color: #5FB4A2;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                letter-spacing: 2px;
+                text-transform: uppercase;
+            }
+
+            a {
+                color: #33323D;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                letter-spacing: 2px;
+                text-transform: uppercase;
+            }
+
+            .header-link3 {
+                color: #33323D;
+                font-size: 12px;
+                font-style: normal;
+                font-weight: 400;
+                line-height: normal;
+                letter-spacing: 2px;
+                text-transform: uppercase;
+            }
+        }
+    }
+}
+
+//===================================== HEADER END =====================================//
+
+//=============================================== MEDIA START ===============================================//
+
+
+//===================================== TABLET START =====================================//
+
+@media only screen and (max-width: 689px) {
+    .header {
+        padding-top: 64px;
+        margin-bottom: 47px;
+
+        &-box {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            ul {
+                display: flex;
+                align-items: center;
+                gap: 0 42px;
+
+                .header-link {
+                    color: #33323D;
+                    font-size: 12px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    letter-spacing: 2px;
+                    text-transform: uppercase;
+                }
+
+                a {
+                    color: #33323D;
+                    font-size: 12px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    letter-spacing: 2px;
+                    text-transform: uppercase;
+                }
+            }
+        }
+    }
+}
+
+//===================================== TABLET END =====================================//
+
+
+//===================================== MOBILE START =====================================//
+
+@media only screen and (max-width: 311px) {
+    .header {
+        padding-top: 32px;
+        margin-bottom: 40px;
+
+        &::before {
+            content: "";
+            position: absolute;
+            right: -27px;
+            top: 46px;
+            width: 24px;
+            height: 13px;
+            background-image: url("../../../src/assets/svg/mobile-menu.svg");
+            background-repeat: no-repeat;
+            background-size: contain;
+        }
+
+        &-box {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+
+            ul {
+                opacity: 0;
+            }
+        }
+    }
+}
+
+//===================================== MOBILE END =====================================//
+
+
+//=============================================== MEDIA END ===============================================//
